@@ -1,0 +1,176 @@
+{
+  "structured": {
+    "inspectionId": "INS-2025-000123",
+    "exporter": {
+      "name": "Green Valley Agro Ltd.",
+      "address": "123 Harvest Road, Springfield, Illinois, USA, 62704",
+      "exporterId": "GV-US-2025-001",
+      "contact": "+1-217-555-0198"
+    },
+    "shipment": {
+      "hsCode": "080410",
+      "productName": "Shelled Walnut Kernels",
+      "batchNumber": "WV-2025-07-15",
+      "lotNumbers": [
+        "LOT-00123",
+        "LOT-00124",
+        "LOT-00125"
+      ],
+      "quantityKg": 2500,
+      "destinationCountry": "Germany",
+      "expectedShipDate": "2025-12-20"
+    },
+    "documents": {
+      "commercialInvoice": {
+        "fileUrl": "ipfs://bafybeicmexampleinvoice12345",
+        "sha256": "a3f5c9e8d2b4f6a7c9e1b2d3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3",
+        "fields": {
+          "invoiceNumber": "INV-2025-987654",
+          "invoiceDate": "2025-11-30",
+          "declaredValueUSD": 75000,
+          "buyerName": "EuroNut GmbH"
+        }
+      },
+      "packingList": {
+        "fileUrl": "ipfs://bafybeipackinglistexample67890",
+        "sha256": "b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2",
+        "fields": {
+          "totalPackages": 50,
+          "netWeightKg": 2500,
+          "grossWeightKg": 2600
+        }
+      },
+      "certificateOfOrigin": {
+        "fileUrl": "ipfs://bafybeicertoriginexample34567",
+        "sha256": "c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4",
+        "fields": {
+          "issuer": "US Department of Agriculture",
+          "originCountry": "United States",
+          "issueDate": "2025-11-28"
+        }
+      },
+      "phytosanitaryCertificate": {
+        "fileUrl": "ipfs://bafybeiphytocertexample90123",
+        "sha256": "d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6",
+        "fields": {
+          "treatment": "Fumigation with methyl bromide",
+          "inspectionDate": "2025-11-29"
+        }
+      },
+      "labTestReport": {
+        "fileUrl": "ipfs://bafybeilabreportexample11223",
+        "sha256": "e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8",
+        "fields": {
+          "moisturePercent": 5.2,
+          "pesticideResiduePpm": 0.03,
+          "aflatoxinPpm": 0.001
+        }
+      },
+      "exporterDeclaration": {
+        "fileUrl": "ipfs://bafybeiexporterdeclexample33445",
+        "sha256": "f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0",
+        "fields": {
+          "declaredBy": "Michael Thompson",
+          "position": "Export Compliance Manager",
+          "declarationDate": "2025-12-01"
+        }
+      }
+    },
+    "evidence": {
+      "photos": [
+        {
+          "fileUrl": "ipfs://bafybeiphoto1example55667",
+          "sha256": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2",
+          "exif": {
+            "timestamp": "2025-12-10T09:15:00Z",
+            "gps": "48.8566,2.3522"
+          }
+        },
+        {
+          "fileUrl": "ipfs://bafybeiphoto2example77889",
+          "sha256": "b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3",
+          "exif": {
+            "timestamp": "2025-12-10T09:20:00Z",
+            "gps": "48.8566,2.3522"
+          }
+        }
+      ]
+    },
+    "ocrExtraction": {
+      "fields": {
+        "productName": "Shelled Walnut Kernels",
+        "batchNumber": "WV-2025-07-15",
+        "invoiceNumber": "INV-2025-987654"
+      },
+      "confidence": 0.94,
+      "lowConfidenceFields": [],
+      "anomalies": {
+        "bboxVariance": 0.02,
+        "dpiMismatch": false,
+        "exifMismatch": false
+      }
+    },
+    "trustScore": 85,
+    "trustworthiness": 78,
+    "status": "PENDING_INSPECTION",
+    "submittedAt": "2025-12-11T14:30:00Z"
+  },
+  "ocr": {
+    "commercialInvoice": {
+      "text": "% agrcutur\ni reinvcice\n=\nbe\n",
+      "fraud": {
+        "score": 20,
+        "hash": "hash_error",
+        "suspicious": false
+      }
+    },
+    "packingList": {
+      "text": "ll\nEC 0 0 cB EB\nCC x rR\nI E02\nEE cc eo\nI EH LA\ncl LR\nI\nI al il i\nI\nIE EN NN |\n",
+      "fraud": {
+        "score": 10,
+        "hash": "hash_error",
+        "suspicious": false
+      }
+    },
+    "phytosanitaryCertificate": {
+      "text": "ae\nwp tenn\nGas rom e011 2609297\nFo 01 sevens\nsn\nGovernment of nda 1505012008\npi\nMistry of Agriculture\nav wee fo\n(Department of Asrictur and cooperation)\nrt, a RT\nDictorste of Plat Protsclon, Quaasti & Sirae\nER TR\nNATIONAL PLANT QUARANTINE STATION,\nTg, 5 Re 11003 Rangpur New Delhi 1037\nFo. 45/2012:13Teh (35) Dated: 3122015.\n[ sweNowENT/CORRIGENDI\n111 cored that the folowing amendments /corigendum has been made\nas dead bow:\n1. Regiitaton No PSCONe2013021655 and Phytosanitary Certfcate No 52°C\n111168 ded 28.112013\nle Existing To bo read as: |\n[N08 40 poly Bags 480 Barrel HOPEPIastic |\nThe ther conditions inthe above PSC Number wil remain unchanged\n2 SHY\nGe) (orsaieespindey)\n| (£5 G1 55) Assistant Director (Ento.)\n",
+      "fraud": {
+        "score": 10,
+        "hash": "hash_error",
+        "suspicious": false
+      }
+    },
+    "certificateOfOrigin": {
+      "text": "ORIGINAL\nrp —\nKINGSTAR SHIPPING CO, LTD. CCPIT\nVIA PREMIUM SOURCING INTERNATIONAL 113328407\n11C4403A1404/01220\nCERTIFICATE OF ORIGIN\nre OF\nSABINEX ADDRESS HP 1108 THE PEOPLE’ S REPUBLIC OF CHINA\nSE\n—— ———\nRS Thee tah > wm, toe > Ti\n=\nPROTON Cr DER\nme ae\n4. Country / region of destination —\non\na eae Te oe\nan\n=\na 3102 CARTONS OF WHITE CANDLE 3406000000  B10GCARTONS| 240820118\na Fr\nTAL 5 Pui 3 bs\nToto is\nToe —\nao Fd be een Coa wv coy | cd SSAA\nmara te Pape Che GREE N\\\n. AS \\\nQs) PP /\n&\\ S \\ Pe\nQe iki3 FH wn)\nHh Men. wae ep ( stb\nHEE ee\n",
+      "fraud": {
+        "score": 10,
+        "hash": "hash_error",
+        "suspicious": false
+      }
+    },
+    "productTestReport": {
+      "text": "2\no =3%\n",
+      "fraud": {
+        "score": 20,
+        "hash": "hash_error",
+        "suspicious": false
+      }
+    },
+    "exporterDeclaration": {
+      "text": "ate:\n\nTo,\n\nHOFC Bank Ltd.\n\nmaid Branch\n\nDocumentary Services Dept.\n\nRef; Dedaration Cum Undertaking Under Section 10(5) . Chapter IIL of the\nForeign Exchange Management Act, 1999.\n\nI/We hereby declare that the transaction the datas of which are specifically mentcnsd the\n‘Schedule hereunder does not vole, and is not designed for the purpose of any\ncontravention cr evaskon of the provisos of the aforesaid Act or of any ule, regulation,\nnotification, rection or order made thereunder\n\nIe ako hersby agree and undertake to give such information documents 2s wil reasonably\nSats you Sout $16 Gansacton i terms of the sbove declaration.\n\nI/We ako understand that 1 We reuse to comply with any such requrement or maki cnly\nsatsfactory compliance therewith, the Band. shal refuse 1 witng to undertake te\nansaction and shall ft has reason to beleve that any convaventon/evason\ncontemplated by mes report he mater to the Reserve Bark of India\n\n“1Ae further declare that the undersigned hasfhave the author to give ths declaration\nand undertang on behalf of the frm /company\n\n‘Sears of the Applicant fo Foreign Exchange\n\nPlace:\n\n“applicable when the declaration Andertag is signed on behalf of the fimjcompany.\nSchedule\n\nNature/Purpose of the Foren Exchange Transaction\n\nAment of Foren Exchange\n\n(Please fil nly incase of specific emitances )\n",
+      "fraud": {
+        "score": 10,
+        "hash": "hash_error",
+        "suspicious": false
+      }
+    },
+    "evidence": {
+      "fraud": {
+        "score": 20,
+        "hash": "hash_error",
+        "suspicious": false
+      }
+    }
+  },
+  "savedAt": "2025-12-11T16:36:51.647Z"
+}
