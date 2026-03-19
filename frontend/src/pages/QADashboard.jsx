@@ -10,9 +10,9 @@ const LogoutIcon = ({ className = "w-5 h-5" }) => (<svg xmlns="http://www.w3.org
 // --- END: ICON PLACEHOLDERS ---
 
 // A simple component to render the main title/logo area
-const DemeterLogo = ({ text = "DEMETER" }) => (
+const DFDLogo = ({ text = "DFD" }) => (
     <div className="flex items-center justify-center p-6 border-b border-gray-100 mb-4">
-        {/* Placeholder for Demeter Logo (circular) */}
+        {/* Placeholder for DFD Logo (circular) */}
         <div className="w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center mr-3">
             <span className="text-white font-bold text-lg">D</span>
         </div>
@@ -44,7 +44,7 @@ const Sidebar = ({ activeView, setActiveView }) => {
 
     return (
         <div className="w-64 bg-white border-r border-gray-100 flex flex-col h-full">
-            <DemeterLogo />
+            <DFDLogo />
 
             <div className="flex flex-col space-y-2 flex-grow">
                 <NavItem
@@ -79,7 +79,7 @@ const Sidebar = ({ activeView, setActiveView }) => {
 const HomeView = () => (
     <div className="flex flex-col items-center justify-center h-full text-center p-10">
         <h2 className="text-5xl font-extrabold text-gray-900 leading-tight">
-            Demeter for QA Inspector
+            DFD for QA Inspector
         </h2>
         <p className="mt-4 text-xl text-gray-500 max-w-lg">
             Streamline the verification process to save time from manual document verification.

@@ -6,8 +6,8 @@ export default function HeroPage() {
 
       <Link to="/login" className="mb-10">
         <img
-          src="/assets/logo_demeter.webp"
-          alt="Demeter Logo"
+          src="/assets/logo_DFD.webp"
+          alt="DFD Logo"
           className="w-48 h-48 object-contain"
         />
       </Link>

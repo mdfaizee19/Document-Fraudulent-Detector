@@ -1,20 +1,20 @@
-#  DEMETER
+#  DFD
 **Verifiable Quality Certification for Agricultural Trade**
 
-DEMETER is a high-complexity, web-based platform that digitizes and secures agricultural export and import certification using **Verifiable Credentials (VCs)**. It replaces fragmented, paper-heavy compliance workflows with a **tamper-proof, AI-assisted, blockchain-backed system** aligned with **W3C Verifiable Credentials** and **OpenID4VP** standards.
+DFD is a high-complexity, web-based platform that digitizes and secures agricultural export and import certification using **Verifiable Credentials (VCs)**. It replaces fragmented, paper-heavy compliance workflows with a **tamper-proof, AI-assisted, blockchain-backed system** aligned with **W3C Verifiable Credentials** and **OpenID4VP** standards.
 
 The platform enables farmers, QA agencies, DPP issuers, exporters, importers, and consumers to **issue, carry, and verify trusted quality certificates** (Digital Product Passports) using **DID-based identities** and **QR-based instant verification**.
 
 ---
 
-##  Why DEMETER exists
+##  Why DFD exists
 Agricultural trade suffers from:
 - Manual document verification (slow, error-prone)
 - Fraud via forged lab reports and certificates
 - Illegible scans, PDFs, and inconsistent formats
 - Lack of real-time trust for importers and customs
 
-**DEMETER solves this by design.**  
+**DFD solves this by design.**  
 It ensures that **what is verified is exactly what was issued**, cryptographically and transparently.
 
 ---
@@ -240,9 +240,16 @@ Designed for **machine-verifiable border checks**, not PDFs.
 ### Installation
 
 ```bash
-git clone (https://github.com/haroon12h08/DEMETER-AI-and-BLOCKCHAIN-AGRI-EXPORT-PORTAL.git)
+git clone (https://github.com/mdfaizee19/Document-Fraudulent-Detector.git)
 
 cd backend
+npm install
+ppx nodemon
+
+cd ../frontend
+npm install
+npm run dev
+```
 npm install
 ppx nodemon
 

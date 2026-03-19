@@ -19,12 +19,12 @@ export default function QAEntryPage() {
         {/* Logo */}
         <div className="flex items-center justify-center mb-8">
           <img
-            src="/assets/logo_demeter.webp"
-            alt="Demeter"
+            src="/assets/logo_DFD.webp"
+            alt="DFD"
             className="w-10 h-10 mr-3 object-contain"
           />
           <h1 className="text-xl font-semibold text-neutral-900">
-            DEMETER
+            DFD
           </h1>
         </div>
 

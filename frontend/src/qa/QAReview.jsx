@@ -37,8 +37,8 @@ export default function QAReview() {
         <div className="max-w-5xl mx-auto px-10 py-6 flex items-center justify-between">
           <div className="flex items-center">
             <img
-              src="/assets/logo_demeter.webp"
-              alt="Demeter"
+              src="/assets/logo_DFD.webp"
+              alt="DFD"
               className="w-9 h-9 mr-3 object-contain"
             />
             <h1 className="text-xl font-semibold text-neutral-900">

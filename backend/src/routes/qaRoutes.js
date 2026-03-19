@@ -47,7 +47,7 @@ router.post("/approve", async (req, res) => {
   const fileName = `qr/${id}.png`;
 
   const { error: uploadErr } = await supabase.storage
-    .from("demeter")
+    .from("DFD")
     .upload(fileName, qrPng, {
       contentType: "image/png",
       upsert: true,
@@ -59,7 +59,7 @@ router.post("/approve", async (req, res) => {
 
   const qr_url =
     process.env.SUPABASE_URL +
-    "/storage/v1/object/public/demeter/" +
+    "/storage/v1/object/public/DFD/" +
     fileName;
 
   const { error: updateErr } = await supabase

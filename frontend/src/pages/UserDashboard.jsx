@@ -74,15 +74,15 @@ const LogoutIcon = () => (
 
 /* ---------------- LOGO ---------------- */
 
-const DemeterLogo = () => (
+const DFDLogo = () => (
   <div className="flex items-center justify-center p-6 border-b border-neutral-200">
     <img
-      src="/assets/logo_demeter.webp"
-      alt="Demeter"
+      src="/assets/logo_DFD.webp"
+      alt="DFD"
       className="w-10 h-10 mr-3 object-contain"
     />
     <h1 className="text-xl font-serif font-semibold text-neutral-900">
-      DEMETER
+      DFD
     </h1>
   </div>
 );
@@ -114,7 +114,7 @@ const Sidebar = ({ activeView, setActiveView }) => {
 
   return (
     <div className="w-64 bg-white border-r border-neutral-200 flex flex-col h-full">
-      <DemeterLogo />
+      <DFDLogo />
 
       <div className="flex flex-col space-y-1 flex-grow mt-2">
         <NavItem icon={HomeIcon} label="Home" isActive={activeView === "home"} onClick={() => setActiveView("home")} />
@@ -144,7 +144,7 @@ const HomeView = () => (
     </h2>
 
     <p className="text-lg text-neutral-700 max-w-2xl mb-10">
-      Demeter provides a secure workflow for submitting export documentation,
+      DFD provides a secure workflow for submitting export documentation,
       tracking verification status, and receiving verifiable credentials issued
       after quality assurance inspection.
     </p>
@@ -178,7 +178,7 @@ const HomeView = () => (
           Verifiable Credentials
         </h3>
         <p>
-          Once approved, Demeter issues a cryptographically verifiable credential
+          Once approved, DFD issues a cryptographically verifiable credential
           representing the approved shipment or exporter status. Credentials can
           be shared and verified independently using QR codes.
         </p>
@@ -189,7 +189,7 @@ const HomeView = () => (
           Transparency and Trust
         </h3>
         <p>
-          Demeter does not auto-approve submissions. All credentials are issued
+          DFD does not auto-approve submissions. All credentials are issued
           only after manual inspection. This ensures trust, auditability, and
           acceptance by trade partners and regulators.
         </p>

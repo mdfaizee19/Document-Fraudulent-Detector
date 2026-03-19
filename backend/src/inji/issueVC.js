@@ -9,7 +9,7 @@ async function issueInspectionVC(structured) {
     "@context": ["https://www.w3.org/2018/credentials/v1"],
     id: `urn:uuid:${uuidv4()}`,
     type: ["VerifiableCredential", "ExportInspectionCredential"],
-    issuer: "did:web:demeter.io",
+    issuer: "did:web:DFD.io",
     issuanceDate: new Date().toISOString(),
     credentialSubject: {
       inspectionId: structured.inspectionId,
@@ -24,7 +24,7 @@ async function issueInspectionVC(structured) {
   const jwt = await new SignJWT({ vc })
     .setProtectedHeader({ alg: "EdDSA", kid: issuerKey.kid })
     .setIssuedAt()
-    .setIssuer("did:web:demeter.io")
+    .setIssuer("did:web:DFD.io")
     .setAudience("inji-wallet")
     .setJti(vc.id)
     .sign(privateKey);

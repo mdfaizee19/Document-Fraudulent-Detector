@@ -33,15 +33,15 @@ const LogoutIcon = ({ className = "w-5 h-5" }) => (
 
 /* ---------------- LOGO ---------------- */
 
-const DemeterLogo = () => (
+const DFDLogo = () => (
   <div className="flex items-center justify-center p-6 border-b border-neutral-200">
     <img
-      src="/assets/logo_demeter.webp"
-      alt="Demeter"
+      src="/assets/logo_DFD.webp"
+      alt="DFD"
       className="w-10 h-10 mr-3 object-contain"
     />
     <h1 className="text-xl font-serif font-semibold text-neutral-900">
-      DEMETER
+      DFD
     </h1>
   </div>
 );
@@ -73,7 +73,7 @@ const Sidebar = ({ activeView, setActiveView }) => {
 
   return (
     <div className="w-64 bg-white border-r border-neutral-200 flex flex-col h-full font-serif">
-      <DemeterLogo />
+      <DFDLogo />
 
       <div className="flex flex-col space-y-1 flex-grow mt-2">
         <NavItem icon={HomeIcon} label="Home" isActive={activeView === "home"} onClick={() => setActiveView("home")} />

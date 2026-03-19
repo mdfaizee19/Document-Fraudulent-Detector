@@ -20,12 +20,12 @@ export default function SelectRolePage() {
         {/* Logo */}
         <div className="flex items-center justify-center mb-8">
           <img
-            src="/assets/logo_demeter.webp"
-            alt="Demeter"
+            src="/assets/logo_DFD.webp"
+            alt="DFD"
             className="w-10 h-10 mr-3 object-contain"
           />
           <h1 className="text-xl font-semibold text-neutral-900">
-            DEMETER
+            DFD
           </h1>
         </div>
 
@@ -34,7 +34,7 @@ export default function SelectRolePage() {
         </h2>
 
         <p className="text-center text-sm text-neutral-600 mb-8">
-          Choose how you will interact with the Demeter verification system.
+          Choose how you will interact with the DFD verification system.
         </p>
 
         <button

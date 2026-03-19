@@ -11,7 +11,7 @@ export default function ExporterNavbar() {
 
   return (
     <nav className="flex items-center justify-between px-10 py-4 border-b bg-white">
-      <img src="/assets/logo_demeter.webp" className="w-28" />
+      <img src="/assets/logo_DFD.webp" className="w-28" />
 
       <div className="flex gap-8 font-medium">
         <Link to="/upload">Upload</Link>
