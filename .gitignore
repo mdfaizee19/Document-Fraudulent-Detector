@@ -1,0 +1,52 @@
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---- Node / JS ----
+node_modules/
+dist/
+build/
+.out/
+.next/
+.vite/
+
+# ---- Environment files ----
+.env
+.env.*
+!.env.example
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.venv
+venv/
+ENV/
+env/
+
+# ---- IDEs ----
+.vscode/
+.idea/
+*.swp
+
+# ---- Coverage / Reports ----
+coverage/
+reports/
+
+# ---- Docker ----
+*.pid
+docker-data/
+
+# ---- Blockchain / Keys (CRITICAL) ----
+keys/
+wallets/
+*.pem
+*.key
+*.keystore
